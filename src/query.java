@@ -534,7 +534,7 @@ public class query{
     private static int countDays (LocalDate start, LocalDate end){
         int count = 0;
         LocalDate temp = start;
-        while(temp.isEqual(end) == false) {
+        while(temp.isBefore(end) == true) {
             count = count + 1;
             temp = temp.plusDays(1);
         }
@@ -558,22 +558,29 @@ public class query{
             stmt = con.createStatement();
             temp = start;
 
-            for (int i = 0; i <= count + 2; i++) {
+            for (int i = 0; i <= count + 1; i++) {
+                System.out.println("Count: " + count);
                 rs = stmt.executeQuery("select * from dates natural join reservations where date = '" + temp + "';");
                 while(rs.next()){
                     String roomID = Integer.toString(rs.getInt("room_id"));
+                    boolean dup = false;
+
 
                     if (goodRooms.size() == 0){
                         goodRooms.add(roomID);
+                        System.out.println("First added: " + roomID);
                     }
+
                     else {
-                        for (int j = 0; j <= goodRooms.size(); j++){
-                            boolean dup = true;
-                            if (roomID == goodRooms.get(j)){
-                                continue;
-                            } else {
-                                goodRooms.add(roomID);
+                        for (int j = 0; j <= goodRooms.size() -1; j++){
+                            if (roomID.equals(goodRooms.get(j)) == true){
+                                System.out.println("Size: " + j);
+                                dup = true;
                             }
+                        }
+                        if (dup == false) {
+                            goodRooms.add(roomID);
+                            System.out.println("ROOMS: " + roomID);
                         }
                     }
                 }
