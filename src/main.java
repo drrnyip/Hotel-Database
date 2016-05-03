@@ -29,11 +29,11 @@ public class main extends Application {
 
 
         //exit request
-        primaryStage.setOnCloseRequest(e -> {
-            //e.consume();
-            //confirmExit();
-            //if (result == true) {primaryStage.close();}
-        });
+//        primaryStage.setOnCloseRequest(e -> {
+//            e.consume();
+//            confirmExit();
+//            if (result == true) {primaryStage.close();}
+//        });
 
         primaryStage.setTitle("Hotel Database");
         Button button1 = new Button();

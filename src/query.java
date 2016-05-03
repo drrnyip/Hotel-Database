@@ -21,6 +21,12 @@ public class query{
     static Button createReservation;
     static LocalDate temp;
 
+    static int costType = 0;
+    static int lengthOfStay;
+    static double balanceCharge;
+    static double deposit;
+
+
     static String fname;
     static String lname;
     static String contactInfo;
@@ -33,8 +39,6 @@ public class query{
     static int id = 0;
     static int reservationID;
     static ArrayList<String> goodRooms = new ArrayList<>();
-
-
 
 
     public static void display(){
@@ -72,18 +76,12 @@ public class query{
             if (endDate.getValue().isBefore(startOfStay)){System.err.println("Invalid Date"); endDate.setValue(startOfStay.plus(1, ChronoUnit.DAYS)); return;}
                 endOfStay = endDate.getValue();
 
-
         });
-
-
 
         //Button action
             searchAvailability.setOnAction(event -> {
 
                 goodRooms.clear();
-
-
-
                 confirmClicked = true;
 
                 if (endDate.getValue() == null || startDate.getValue() == null){System.err.println("Please Select Dates"); return;}
@@ -102,7 +100,6 @@ public class query{
                 typeChoice = roomTypes.getValue().toString();
 
                 try {
-
                     Connection conn1 = null;
                     Statement stmt1 = null;
                     ResultSet rs1 = null;
@@ -117,6 +114,8 @@ public class query{
 
                     int count = countDays(startOfStay,endOfStay);
                     fullRooms(count, startOfStay, endOfStay);
+                    lengthOfStay = count;
+
 
                     stmt1.close();
                     conn1.close();
@@ -215,7 +214,6 @@ public class query{
 
                 } catch (Exception f){};
 
-
                 availableRooms.setVisible(true);
 
                 createReservation.setVisible(true);
@@ -232,9 +230,30 @@ public class query{
                         roomTypes.setDisable(true);
                         searchAvailability.setDisable(true);
                         roomChoice = Integer.parseInt(availableRooms.getValue());
-
+                        costType = roomChoice;
                     }
                     createReservation.setDisable(true);
+
+                    double costPrice = 0;
+                    if (costType == 320 || costType == 319) {
+                        deposit = 300;
+                        costPrice = 300;
+                    }
+                    if (costType == 318 || costType == 317 || costType == 316 || costType == 315 || costType == 314 || costType == 313) {
+                        costPrice = 200;
+                        deposit = 200;
+                    }
+                    if (costType == 312 || costType == 311 || costType == 310 || costType == 309 || costType == 308 || costType == 307 || costType == 306 || costType == 305 || costType == 304 || costType == 303 || costType == 302 || costType == 301) {
+                        costPrice = 100;
+                        deposit = 100;
+                    }
+
+                    balanceCharge = -(costPrice * lengthOfStay);
+
+                    Label cost = new Label("Balance Charge: $" + costPrice * lengthOfStay + " | Deposit: $" + deposit + "\n Total Charge: $" + (-balanceCharge + deposit));
+                    grid.setConstraints(cost,1,3);
+                    grid.getChildren().add(cost);
+
                 });
 
             });
@@ -243,13 +262,14 @@ public class query{
         grid.setHgap(12);
         grid.setVgap(10);
 
+
+
+
+
         //Labels & Textfields
         Label info = new Label("1. Please select stay duration.");
 
-
         //Buttons
-
-
 
         //Grid constraints
         grid.setConstraints(info,0,0);
@@ -341,7 +361,6 @@ public class query{
 
                 try {
 
-
                     Connection conn1 = null;
                     Statement stmt1 = null;
                     ResultSet rs1 = null;
@@ -384,12 +403,17 @@ public class query{
                     int guestNumber = 1000 + count;
 
                     PreparedStatement statement = conn2.prepareStatement(
-                            "insert into guest " + "(guest_id, first_name, last_name, contact_number)" + " values " + " (?,?,?,?);");
+                            "insert into guest " + "(guest_id, first_name, last_name, contact_number, deposit, balance)" + " values " + " (?,?,?,?,?,?);");
 
                     statement.setInt(1, guestNumber);
                     statement.setString(2, fname);
                     statement.setString(3, lname);
                     statement.setString(4, contactInfo);
+                    statement.setDouble(5, deposit);
+                    statement.setDouble(6, balanceCharge);
+
+                    statement.executeUpdate();
+                    statement.close();
 
                     PreparedStatement roomStatement = conn1.prepareStatement(
                             "insert into reservations values " + "(?,?,?);"
@@ -402,14 +426,11 @@ public class query{
                     roomStatement.close();
 
 
-                    System.out.println("Reservation table updated");
 
-                    statement.executeUpdate();
-                    statement.close();
+                    System.out.println("Reservation table updated");
 
 
                     //Dates table update;
-
 
                     LocalDate temp = startOfStay;
 
@@ -538,14 +559,12 @@ public class query{
             count = count + 1;
             temp = temp.plusDays(1);
         }
-
         return count;
     }
 
     private static void fullRooms(int count, LocalDate start, LocalDate end){
 
         try{
-
             Connection con = null;
             Statement stmt = null;
             ResultSet rs = null;
@@ -564,7 +583,6 @@ public class query{
                     String roomID = Integer.toString(rs.getInt("room_id"));
                     boolean dup = false;
 
-
                     if (goodRooms.size() == 0){
                         goodRooms.add(roomID);
                     }
@@ -582,10 +600,7 @@ public class query{
                 }
                 temp = temp.plusDays(1);
             }
-
         } catch (Exception g) {};
-
-
     }
 
     private static boolean checkGoodRooms(int room) {
@@ -600,5 +615,4 @@ public class query{
         }
         return taken;
     }
-
 }

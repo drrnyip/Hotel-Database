@@ -33,8 +33,8 @@
       <file leaf-file-name="main.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="154">
-              <caret line="18" column="0" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
+            <state relative-caret-position="239">
+              <caret line="41" column="0" selection-start-line="41" selection-start-column="0" selection-end-line="41" selection-end-column="0" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -42,11 +42,21 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="capitan.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/capitan.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="132">
+              <caret line="6" column="0" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="update.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/update.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="990">
-              <caret line="52" column="41" selection-start-line="52" selection-start-column="41" selection-end-line="52" selection-end-column="41" />
+            <state relative-caret-position="817">
+              <caret line="218" column="53" selection-start-line="218" selection-start-column="53" selection-end-line="218" selection-end-column="53" />
               <folding>
                 <marker date="1461562282700" expanded="true" signature="1901:1955" placeholder="Select * FRO... guest" />
                 <marker date="1461562282700" expanded="true" signature="3556:3593" placeholder="Select * FRO... guest" />
@@ -72,8 +82,8 @@
       <file leaf-file-name="management.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/management.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="330">
-              <caret line="23" column="25" selection-start-line="23" selection-start-column="25" selection-end-line="23" selection-end-column="25" />
+            <state relative-caret-position="2384">
+              <caret line="175" column="47" selection-start-line="175" selection-start-column="0" selection-end-line="176" selection-end-column="0" />
               <folding>
                 <marker date="1461447156264" expanded="true" signature="2285:2310" placeholder="Select * FRO... staff" />
                 <marker date="1461447156264" expanded="true" signature="2285:2311" placeholder="Select * FRO... staff" />
@@ -88,24 +98,24 @@
       <file leaf-file-name="query.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/query.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-41">
-              <caret line="561" column="0" selection-start-line="561" selection-start-column="0" selection-end-line="561" selection-end-column="0" />
+            <state relative-caret-position="540">
+              <caret line="498" column="0" selection-start-line="498" selection-start-column="0" selection-end-line="498" selection-end-column="0" />
               <folding>
-                <marker date="1461858105440" expanded="true" signature="11354:11379" placeholder="select guest... guest" />
-                <marker date="1461858105440" expanded="true" signature="11354:11380" placeholder="select guest... guest" />
-                <marker date="1461858105440" expanded="true" signature="11354:11407" placeholder="select * fro... guest" />
-                <marker date="1461858105440" expanded="true" signature="11354:11408" placeholder="select * fro... guest" />
-                <marker date="1461858105440" expanded="true" signature="13425:13444" placeholder="select * fro... guest" />
-                <marker date="1461858105440" expanded="true" signature="13648:13674" placeholder="select * fro... reservations" />
-                <marker date="1461858105440" expanded="true" signature="14101:14201" placeholder="insert into guest... " />
-                <marker date="1461858105440" expanded="true" signature="14528:14572" placeholder="insert into reservations... " />
-                <marker date="1461858105440" expanded="true" signature="15267:15301" placeholder="insert into dates... " />
-                <marker date="1461858105440" expanded="true" signature="17887:17913" placeholder="select * fro... reservations" />
-                <marker date="1461858105440" expanded="true" signature="18149:18193" placeholder="insert into reservations... " />
-                <marker date="1461858105440" expanded="true" signature="18691:18725" placeholder="insert into dates... " />
-                <marker date="1461858105440" expanded="true" signature="20311:20318" placeholder="select rooms... rooms" />
-                <marker date="1461858105440" expanded="true" signature="20311:20371" placeholder="select * fro... dates" />
-                <marker date="1461858105440" expanded="true" signature="20311:20384" placeholder="select * fro... dates" />
+                <marker date="1462314849227" expanded="true" signature="12696:12721" placeholder="select guest... guest" />
+                <marker date="1462314849227" expanded="true" signature="12696:12722" placeholder="select guest... guest" />
+                <marker date="1462314849227" expanded="true" signature="12696:12749" placeholder="select * fro... guest" />
+                <marker date="1462314849227" expanded="true" signature="12696:12750" placeholder="select * fro... guest" />
+                <marker date="1462314849227" expanded="true" signature="14766:14785" placeholder="select * fro... guest" />
+                <marker date="1462314849227" expanded="true" signature="14989:15015" placeholder="select * fro... reservations" />
+                <marker date="1462314849227" expanded="true" signature="15442:15564" placeholder="insert into guest... " />
+                <marker date="1462314849227" expanded="true" signature="16090:16134" placeholder="insert into reservations... " />
+                <marker date="1462314849227" expanded="true" signature="16742:16776" placeholder="insert into dates... " />
+                <marker date="1462314849227" expanded="true" signature="19362:19388" placeholder="select * fro... reservations" />
+                <marker date="1462314849227" expanded="true" signature="19624:19668" placeholder="insert into reservations... " />
+                <marker date="1462314849227" expanded="true" signature="20166:20200" placeholder="insert into dates... " />
+                <marker date="1462314849227" expanded="true" signature="21784:21791" placeholder="select rooms... rooms" />
+                <marker date="1462314849227" expanded="true" signature="21784:21844" placeholder="select * fro... dates" />
+                <marker date="1462314849227" expanded="true" signature="21784:21857" placeholder="select * fro... dates" />
               </folding>
             </state>
           </provider>
@@ -125,7 +135,9 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/src/management.java" />
+        <option value="$PROJECT_DIR$/src/META-INF/MANIFEST.MF" />
         <option value="$PROJECT_DIR$/src/update.java" />
+        <option value="$PROJECT_DIR$/src/capitan.css" />
         <option value="$PROJECT_DIR$/src/main.java" />
         <option value="$PROJECT_DIR$/src/query.java" />
       </list>
@@ -174,8 +186,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -205,24 +215,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Database3" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Database3" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="META-INF" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -270,6 +262,8 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
+      <pane id="Scratches" />
       <pane id="Scope" />
     </panes>
   </component>
@@ -742,12 +736,17 @@
       <workItem from="1461715029822" duration="190000" />
       <workItem from="1461718300533" duration="2073000" />
       <workItem from="1461807231046" duration="3525000" />
-      <workItem from="1461858066608" duration="55000" />
+      <workItem from="1461858066608" duration="1264000" />
+      <workItem from="1461886867830" duration="249000" />
+      <workItem from="1461896577806" duration="1374000" />
+      <workItem from="1462060949189" duration="596000" />
+      <workItem from="1462132614557" duration="1172000" />
+      <workItem from="1462293744773" duration="6608000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="60969000" />
+    <option name="totallyTimeSpent" value="72177000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1" y="1" width="1918" height="1028" extended-state="0" />
@@ -755,28 +754,28 @@
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32662192" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32056892" sideWeight="0.31927082" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.31991053" sideWeight="0.31927082" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21588367" sideWeight="0.68072915" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25263157" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2168421" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39932886" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39934355" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32662192" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.31431767" sideWeight="0.68072915" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -800,6 +799,180 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/query.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="12694">
+          <caret line="589" column="0" selection-start-line="589" selection-start-column="0" selection-end-line="589" selection-end-column="0" />
+          <folding>
+            <marker date="1462314849227" expanded="true" signature="12696:12721" placeholder="select guest... guest" />
+            <marker date="1462314849227" expanded="true" signature="12696:12722" placeholder="select guest... guest" />
+            <marker date="1462314849227" expanded="true" signature="12696:12749" placeholder="select * fro... guest" />
+            <marker date="1462314849227" expanded="true" signature="12696:12750" placeholder="select * fro... guest" />
+            <marker date="1462314849227" expanded="true" signature="14766:14785" placeholder="select * fro... guest" />
+            <marker date="1462314849227" expanded="true" signature="14989:15015" placeholder="select * fro... reservations" />
+            <marker date="1462314849227" expanded="true" signature="15442:15564" placeholder="insert into guest... " />
+            <marker date="1462314849227" expanded="true" signature="16090:16134" placeholder="insert into reservations... " />
+            <marker date="1462314849227" expanded="true" signature="16742:16776" placeholder="insert into dates... " />
+            <marker date="1462314849227" expanded="true" signature="19362:19388" placeholder="select * fro... reservations" />
+            <marker date="1462314849227" expanded="true" signature="19624:19668" placeholder="insert into reservations... " />
+            <marker date="1462314849227" expanded="true" signature="20166:20200" placeholder="insert into dates... " />
+            <marker date="1462314849227" expanded="true" signature="21784:21791" placeholder="select rooms... rooms" />
+            <marker date="1462314849227" expanded="true" signature="21784:21844" placeholder="select * fro... dates" />
+            <marker date="1462314849227" expanded="true" signature="21784:21857" placeholder="select * fro... dates" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="154">
+          <caret line="18" column="0" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/capitan.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="154">
+          <caret line="7" column="0" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/update.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1461562282700" expanded="true" signature="1901:1955" placeholder="Select * FRO... guest" />
+            <marker date="1461562282700" expanded="true" signature="3556:3593" placeholder="Select * FRO... guest" />
+            <marker date="1461562282700" expanded="true" signature="5129:5148" placeholder="Select * FRO... guest" />
+            <marker date="1461562282700" expanded="true" signature="6533:6578" placeholder="select * fro... guest" />
+            <marker date="1461562282700" expanded="true" signature="7040:7085" placeholder="select date " />
+            <marker date="1461562282700" expanded="true" signature="7040:7086" placeholder="select date " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/META-INF/MANIFEST.MF">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="66">
+          <caret line="3" column="0" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/management.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="23" column="25" selection-start-line="23" selection-start-column="25" selection-end-line="23" selection-end-column="25" />
+          <folding>
+            <marker date="1461447156264" expanded="true" signature="2285:2310" placeholder="Select * FRO... staff" />
+            <marker date="1461447156264" expanded="true" signature="2285:2311" placeholder="Select * FRO... staff" />
+            <marker date="1461447156264" expanded="true" signature="2285:2344" placeholder="Select * FRO... staff" />
+            <marker date="1461447156264" expanded="true" signature="4038:4075" placeholder="Select staff... staff" />
+            <marker date="1461447156264" expanded="true" signature="5704:5723" placeholder="Select staff... staff" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/query.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="12694">
+          <caret line="589" column="0" selection-start-line="589" selection-start-column="0" selection-end-line="589" selection-end-column="0" />
+          <folding>
+            <marker date="1462314849227" expanded="true" signature="12696:12721" placeholder="select guest... guest" />
+            <marker date="1462314849227" expanded="true" signature="12696:12722" placeholder="select guest... guest" />
+            <marker date="1462314849227" expanded="true" signature="12696:12749" placeholder="select * fro... guest" />
+            <marker date="1462314849227" expanded="true" signature="12696:12750" placeholder="select * fro... guest" />
+            <marker date="1462314849227" expanded="true" signature="14766:14785" placeholder="select * fro... guest" />
+            <marker date="1462314849227" expanded="true" signature="14989:15015" placeholder="select * fro... reservations" />
+            <marker date="1462314849227" expanded="true" signature="15442:15564" placeholder="insert into guest... " />
+            <marker date="1462314849227" expanded="true" signature="16090:16134" placeholder="insert into reservations... " />
+            <marker date="1462314849227" expanded="true" signature="16742:16776" placeholder="insert into dates... " />
+            <marker date="1462314849227" expanded="true" signature="19362:19388" placeholder="select * fro... reservations" />
+            <marker date="1462314849227" expanded="true" signature="19624:19668" placeholder="insert into reservations... " />
+            <marker date="1462314849227" expanded="true" signature="20166:20200" placeholder="insert into dates... " />
+            <marker date="1462314849227" expanded="true" signature="21784:21791" placeholder="select rooms... rooms" />
+            <marker date="1462314849227" expanded="true" signature="21784:21844" placeholder="select * fro... dates" />
+            <marker date="1462314849227" expanded="true" signature="21784:21857" placeholder="select * fro... dates" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="154">
+          <caret line="18" column="0" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/update.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="990">
+          <caret line="52" column="41" selection-start-line="52" selection-start-column="41" selection-end-line="52" selection-end-column="41" />
+          <folding>
+            <marker date="1461562282700" expanded="true" signature="1901:1955" placeholder="Select * FRO... guest" />
+            <marker date="1461562282700" expanded="true" signature="3556:3593" placeholder="Select * FRO... guest" />
+            <marker date="1461562282700" expanded="true" signature="5129:5148" placeholder="Select * FRO... guest" />
+            <marker date="1461562282700" expanded="true" signature="6533:6578" placeholder="select * fro... guest" />
+            <marker date="1461562282700" expanded="true" signature="7040:7085" placeholder="select date " />
+            <marker date="1461562282700" expanded="true" signature="7040:7086" placeholder="select date " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/META-INF/MANIFEST.MF">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/management.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="23" column="25" selection-start-line="23" selection-start-column="25" selection-end-line="23" selection-end-column="25" />
+          <folding>
+            <marker date="1461447156264" expanded="true" signature="2285:2310" placeholder="Select * FRO... staff" />
+            <marker date="1461447156264" expanded="true" signature="2285:2311" placeholder="Select * FRO... staff" />
+            <marker date="1461447156264" expanded="true" signature="2285:2344" placeholder="Select * FRO... staff" />
+            <marker date="1461447156264" expanded="true" signature="4038:4075" placeholder="Select staff... staff" />
+            <marker date="1461447156264" expanded="true" signature="5704:5723" placeholder="Select staff... staff" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/query.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="12694">
+          <caret line="589" column="0" selection-start-line="589" selection-start-column="0" selection-end-line="589" selection-end-column="0" />
+          <folding>
+            <marker date="1462314849227" expanded="true" signature="12696:12721" placeholder="select guest... guest" />
+            <marker date="1462314849227" expanded="true" signature="12696:12722" placeholder="select guest... guest" />
+            <marker date="1462314849227" expanded="true" signature="12696:12749" placeholder="select * fro... guest" />
+            <marker date="1462314849227" expanded="true" signature="12696:12750" placeholder="select * fro... guest" />
+            <marker date="1462314849227" expanded="true" signature="14766:14785" placeholder="select * fro... guest" />
+            <marker date="1462314849227" expanded="true" signature="14989:15015" placeholder="select * fro... reservations" />
+            <marker date="1462314849227" expanded="true" signature="15442:15564" placeholder="insert into guest... " />
+            <marker date="1462314849227" expanded="true" signature="16090:16134" placeholder="insert into reservations... " />
+            <marker date="1462314849227" expanded="true" signature="16742:16776" placeholder="insert into dates... " />
+            <marker date="1462314849227" expanded="true" signature="19362:19388" placeholder="select * fro... reservations" />
+            <marker date="1462314849227" expanded="true" signature="19624:19668" placeholder="insert into reservations... " />
+            <marker date="1462314849227" expanded="true" signature="20166:20200" placeholder="insert into dates... " />
+            <marker date="1462314849227" expanded="true" signature="21784:21791" placeholder="select rooms... rooms" />
+            <marker date="1462314849227" expanded="true" signature="21784:21844" placeholder="select * fro... dates" />
+            <marker date="1462314849227" expanded="true" signature="21784:21857" placeholder="select * fro... dates" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="154">
@@ -852,21 +1025,21 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <marker date="1461858105440" expanded="true" signature="11354:11379" placeholder="select guest... guest" />
-            <marker date="1461858105440" expanded="true" signature="11354:11380" placeholder="select guest... guest" />
-            <marker date="1461858105440" expanded="true" signature="11354:11407" placeholder="select * fro... guest" />
-            <marker date="1461858105440" expanded="true" signature="11354:11408" placeholder="select * fro... guest" />
-            <marker date="1461858105440" expanded="true" signature="13425:13444" placeholder="select * fro... guest" />
-            <marker date="1461858105440" expanded="true" signature="13648:13674" placeholder="select * fro... reservations" />
-            <marker date="1461858105440" expanded="true" signature="14101:14201" placeholder="insert into guest... " />
-            <marker date="1461858105440" expanded="true" signature="14528:14572" placeholder="insert into reservations... " />
-            <marker date="1461858105440" expanded="true" signature="15267:15301" placeholder="insert into dates... " />
-            <marker date="1461858105440" expanded="true" signature="17887:17913" placeholder="select * fro... reservations" />
-            <marker date="1461858105440" expanded="true" signature="18149:18193" placeholder="insert into reservations... " />
-            <marker date="1461858105440" expanded="true" signature="18691:18725" placeholder="insert into dates... " />
-            <marker date="1461858105440" expanded="true" signature="20311:20318" placeholder="select rooms... rooms" />
-            <marker date="1461858105440" expanded="true" signature="20311:20371" placeholder="select * fro... dates" />
-            <marker date="1461858105440" expanded="true" signature="20311:20384" placeholder="select * fro... dates" />
+            <marker date="1462314849227" expanded="true" signature="12696:12721" placeholder="select guest... guest" />
+            <marker date="1462314849227" expanded="true" signature="12696:12722" placeholder="select guest... guest" />
+            <marker date="1462314849227" expanded="true" signature="12696:12749" placeholder="select * fro... guest" />
+            <marker date="1462314849227" expanded="true" signature="12696:12750" placeholder="select * fro... guest" />
+            <marker date="1462314849227" expanded="true" signature="14766:14785" placeholder="select * fro... guest" />
+            <marker date="1462314849227" expanded="true" signature="14989:15015" placeholder="select * fro... reservations" />
+            <marker date="1462314849227" expanded="true" signature="15442:15564" placeholder="insert into guest... " />
+            <marker date="1462314849227" expanded="true" signature="16090:16134" placeholder="insert into reservations... " />
+            <marker date="1462314849227" expanded="true" signature="16742:16776" placeholder="insert into dates... " />
+            <marker date="1462314849227" expanded="true" signature="19362:19388" placeholder="select * fro... reservations" />
+            <marker date="1462314849227" expanded="true" signature="19624:19668" placeholder="insert into reservations... " />
+            <marker date="1462314849227" expanded="true" signature="20166:20200" placeholder="insert into dates... " />
+            <marker date="1462314849227" expanded="true" signature="21784:21791" placeholder="select rooms... rooms" />
+            <marker date="1462314849227" expanded="true" signature="21784:21844" placeholder="select * fro... dates" />
+            <marker date="1462314849227" expanded="true" signature="21784:21857" placeholder="select * fro... dates" />
           </folding>
         </state>
       </provider>
@@ -923,21 +1096,21 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <marker date="1461858105440" expanded="true" signature="11354:11379" placeholder="select guest... guest" />
-            <marker date="1461858105440" expanded="true" signature="11354:11380" placeholder="select guest... guest" />
-            <marker date="1461858105440" expanded="true" signature="11354:11407" placeholder="select * fro... guest" />
-            <marker date="1461858105440" expanded="true" signature="11354:11408" placeholder="select * fro... guest" />
-            <marker date="1461858105440" expanded="true" signature="13425:13444" placeholder="select * fro... guest" />
-            <marker date="1461858105440" expanded="true" signature="13648:13674" placeholder="select * fro... reservations" />
-            <marker date="1461858105440" expanded="true" signature="14101:14201" placeholder="insert into guest... " />
-            <marker date="1461858105440" expanded="true" signature="14528:14572" placeholder="insert into reservations... " />
-            <marker date="1461858105440" expanded="true" signature="15267:15301" placeholder="insert into dates... " />
-            <marker date="1461858105440" expanded="true" signature="17887:17913" placeholder="select * fro... reservations" />
-            <marker date="1461858105440" expanded="true" signature="18149:18193" placeholder="insert into reservations... " />
-            <marker date="1461858105440" expanded="true" signature="18691:18725" placeholder="insert into dates... " />
-            <marker date="1461858105440" expanded="true" signature="20311:20318" placeholder="select rooms... rooms" />
-            <marker date="1461858105440" expanded="true" signature="20311:20371" placeholder="select * fro... dates" />
-            <marker date="1461858105440" expanded="true" signature="20311:20384" placeholder="select * fro... dates" />
+            <marker date="1462314849227" expanded="true" signature="12696:12721" placeholder="select guest... guest" />
+            <marker date="1462314849227" expanded="true" signature="12696:12722" placeholder="select guest... guest" />
+            <marker date="1462314849227" expanded="true" signature="12696:12749" placeholder="select * fro... guest" />
+            <marker date="1462314849227" expanded="true" signature="12696:12750" placeholder="select * fro... guest" />
+            <marker date="1462314849227" expanded="true" signature="14766:14785" placeholder="select * fro... guest" />
+            <marker date="1462314849227" expanded="true" signature="14989:15015" placeholder="select * fro... reservations" />
+            <marker date="1462314849227" expanded="true" signature="15442:15564" placeholder="insert into guest... " />
+            <marker date="1462314849227" expanded="true" signature="16090:16134" placeholder="insert into reservations... " />
+            <marker date="1462314849227" expanded="true" signature="16742:16776" placeholder="insert into dates... " />
+            <marker date="1462314849227" expanded="true" signature="19362:19388" placeholder="select * fro... reservations" />
+            <marker date="1462314849227" expanded="true" signature="19624:19668" placeholder="insert into reservations... " />
+            <marker date="1462314849227" expanded="true" signature="20166:20200" placeholder="insert into dates... " />
+            <marker date="1462314849227" expanded="true" signature="21784:21791" placeholder="select rooms... rooms" />
+            <marker date="1462314849227" expanded="true" signature="21784:21844" placeholder="select * fro... dates" />
+            <marker date="1462314849227" expanded="true" signature="21784:21857" placeholder="select * fro... dates" />
           </folding>
         </state>
       </provider>
@@ -994,21 +1167,21 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <marker date="1461858105440" expanded="true" signature="11354:11379" placeholder="select guest... guest" />
-            <marker date="1461858105440" expanded="true" signature="11354:11380" placeholder="select guest... guest" />
-            <marker date="1461858105440" expanded="true" signature="11354:11407" placeholder="select * fro... guest" />
-            <marker date="1461858105440" expanded="true" signature="11354:11408" placeholder="select * fro... guest" />
-            <marker date="1461858105440" expanded="true" signature="13425:13444" placeholder="select * fro... guest" />
-            <marker date="1461858105440" expanded="true" signature="13648:13674" placeholder="select * fro... reservations" />
-            <marker date="1461858105440" expanded="true" signature="14101:14201" placeholder="insert into guest... " />
-            <marker date="1461858105440" expanded="true" signature="14528:14572" placeholder="insert into reservations... " />
-            <marker date="1461858105440" expanded="true" signature="15267:15301" placeholder="insert into dates... " />
-            <marker date="1461858105440" expanded="true" signature="17887:17913" placeholder="select * fro... reservations" />
-            <marker date="1461858105440" expanded="true" signature="18149:18193" placeholder="insert into reservations... " />
-            <marker date="1461858105440" expanded="true" signature="18691:18725" placeholder="insert into dates... " />
-            <marker date="1461858105440" expanded="true" signature="20311:20318" placeholder="select rooms... rooms" />
-            <marker date="1461858105440" expanded="true" signature="20311:20371" placeholder="select * fro... dates" />
-            <marker date="1461858105440" expanded="true" signature="20311:20384" placeholder="select * fro... dates" />
+            <marker date="1462314849227" expanded="true" signature="12696:12721" placeholder="select guest... guest" />
+            <marker date="1462314849227" expanded="true" signature="12696:12722" placeholder="select guest... guest" />
+            <marker date="1462314849227" expanded="true" signature="12696:12749" placeholder="select * fro... guest" />
+            <marker date="1462314849227" expanded="true" signature="12696:12750" placeholder="select * fro... guest" />
+            <marker date="1462314849227" expanded="true" signature="14766:14785" placeholder="select * fro... guest" />
+            <marker date="1462314849227" expanded="true" signature="14989:15015" placeholder="select * fro... reservations" />
+            <marker date="1462314849227" expanded="true" signature="15442:15564" placeholder="insert into guest... " />
+            <marker date="1462314849227" expanded="true" signature="16090:16134" placeholder="insert into reservations... " />
+            <marker date="1462314849227" expanded="true" signature="16742:16776" placeholder="insert into dates... " />
+            <marker date="1462314849227" expanded="true" signature="19362:19388" placeholder="select * fro... reservations" />
+            <marker date="1462314849227" expanded="true" signature="19624:19668" placeholder="insert into reservations... " />
+            <marker date="1462314849227" expanded="true" signature="20166:20200" placeholder="insert into dates... " />
+            <marker date="1462314849227" expanded="true" signature="21784:21791" placeholder="select rooms... rooms" />
+            <marker date="1462314849227" expanded="true" signature="21784:21844" placeholder="select * fro... dates" />
+            <marker date="1462314849227" expanded="true" signature="21784:21857" placeholder="select * fro... dates" />
           </folding>
         </state>
       </provider>
@@ -1065,21 +1238,21 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <marker date="1461858105440" expanded="true" signature="11354:11379" placeholder="select guest... guest" />
-            <marker date="1461858105440" expanded="true" signature="11354:11380" placeholder="select guest... guest" />
-            <marker date="1461858105440" expanded="true" signature="11354:11407" placeholder="select * fro... guest" />
-            <marker date="1461858105440" expanded="true" signature="11354:11408" placeholder="select * fro... guest" />
-            <marker date="1461858105440" expanded="true" signature="13425:13444" placeholder="select * fro... guest" />
-            <marker date="1461858105440" expanded="true" signature="13648:13674" placeholder="select * fro... reservations" />
-            <marker date="1461858105440" expanded="true" signature="14101:14201" placeholder="insert into guest... " />
-            <marker date="1461858105440" expanded="true" signature="14528:14572" placeholder="insert into reservations... " />
-            <marker date="1461858105440" expanded="true" signature="15267:15301" placeholder="insert into dates... " />
-            <marker date="1461858105440" expanded="true" signature="17887:17913" placeholder="select * fro... reservations" />
-            <marker date="1461858105440" expanded="true" signature="18149:18193" placeholder="insert into reservations... " />
-            <marker date="1461858105440" expanded="true" signature="18691:18725" placeholder="insert into dates... " />
-            <marker date="1461858105440" expanded="true" signature="20311:20318" placeholder="select rooms... rooms" />
-            <marker date="1461858105440" expanded="true" signature="20311:20371" placeholder="select * fro... dates" />
-            <marker date="1461858105440" expanded="true" signature="20311:20384" placeholder="select * fro... dates" />
+            <marker date="1462314849227" expanded="true" signature="12696:12721" placeholder="select guest... guest" />
+            <marker date="1462314849227" expanded="true" signature="12696:12722" placeholder="select guest... guest" />
+            <marker date="1462314849227" expanded="true" signature="12696:12749" placeholder="select * fro... guest" />
+            <marker date="1462314849227" expanded="true" signature="12696:12750" placeholder="select * fro... guest" />
+            <marker date="1462314849227" expanded="true" signature="14766:14785" placeholder="select * fro... guest" />
+            <marker date="1462314849227" expanded="true" signature="14989:15015" placeholder="select * fro... reservations" />
+            <marker date="1462314849227" expanded="true" signature="15442:15564" placeholder="insert into guest... " />
+            <marker date="1462314849227" expanded="true" signature="16090:16134" placeholder="insert into reservations... " />
+            <marker date="1462314849227" expanded="true" signature="16742:16776" placeholder="insert into dates... " />
+            <marker date="1462314849227" expanded="true" signature="19362:19388" placeholder="select * fro... reservations" />
+            <marker date="1462314849227" expanded="true" signature="19624:19668" placeholder="insert into reservations... " />
+            <marker date="1462314849227" expanded="true" signature="20166:20200" placeholder="insert into dates... " />
+            <marker date="1462314849227" expanded="true" signature="21784:21791" placeholder="select rooms... rooms" />
+            <marker date="1462314849227" expanded="true" signature="21784:21844" placeholder="select * fro... dates" />
+            <marker date="1462314849227" expanded="true" signature="21784:21857" placeholder="select * fro... dates" />
           </folding>
         </state>
       </provider>
@@ -1136,21 +1309,21 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <marker date="1461858105440" expanded="true" signature="11354:11379" placeholder="select guest... guest" />
-            <marker date="1461858105440" expanded="true" signature="11354:11380" placeholder="select guest... guest" />
-            <marker date="1461858105440" expanded="true" signature="11354:11407" placeholder="select * fro... guest" />
-            <marker date="1461858105440" expanded="true" signature="11354:11408" placeholder="select * fro... guest" />
-            <marker date="1461858105440" expanded="true" signature="13425:13444" placeholder="select * fro... guest" />
-            <marker date="1461858105440" expanded="true" signature="13648:13674" placeholder="select * fro... reservations" />
-            <marker date="1461858105440" expanded="true" signature="14101:14201" placeholder="insert into guest... " />
-            <marker date="1461858105440" expanded="true" signature="14528:14572" placeholder="insert into reservations... " />
-            <marker date="1461858105440" expanded="true" signature="15267:15301" placeholder="insert into dates... " />
-            <marker date="1461858105440" expanded="true" signature="17887:17913" placeholder="select * fro... reservations" />
-            <marker date="1461858105440" expanded="true" signature="18149:18193" placeholder="insert into reservations... " />
-            <marker date="1461858105440" expanded="true" signature="18691:18725" placeholder="insert into dates... " />
-            <marker date="1461858105440" expanded="true" signature="20311:20318" placeholder="select rooms... rooms" />
-            <marker date="1461858105440" expanded="true" signature="20311:20371" placeholder="select * fro... dates" />
-            <marker date="1461858105440" expanded="true" signature="20311:20384" placeholder="select * fro... dates" />
+            <marker date="1462314849227" expanded="true" signature="12696:12721" placeholder="select guest... guest" />
+            <marker date="1462314849227" expanded="true" signature="12696:12722" placeholder="select guest... guest" />
+            <marker date="1462314849227" expanded="true" signature="12696:12749" placeholder="select * fro... guest" />
+            <marker date="1462314849227" expanded="true" signature="12696:12750" placeholder="select * fro... guest" />
+            <marker date="1462314849227" expanded="true" signature="14766:14785" placeholder="select * fro... guest" />
+            <marker date="1462314849227" expanded="true" signature="14989:15015" placeholder="select * fro... reservations" />
+            <marker date="1462314849227" expanded="true" signature="15442:15564" placeholder="insert into guest... " />
+            <marker date="1462314849227" expanded="true" signature="16090:16134" placeholder="insert into reservations... " />
+            <marker date="1462314849227" expanded="true" signature="16742:16776" placeholder="insert into dates... " />
+            <marker date="1462314849227" expanded="true" signature="19362:19388" placeholder="select * fro... reservations" />
+            <marker date="1462314849227" expanded="true" signature="19624:19668" placeholder="insert into reservations... " />
+            <marker date="1462314849227" expanded="true" signature="20166:20200" placeholder="insert into dates... " />
+            <marker date="1462314849227" expanded="true" signature="21784:21791" placeholder="select rooms... rooms" />
+            <marker date="1462314849227" expanded="true" signature="21784:21844" placeholder="select * fro... dates" />
+            <marker date="1462314849227" expanded="true" signature="21784:21857" placeholder="select * fro... dates" />
           </folding>
         </state>
       </provider>
@@ -1199,21 +1372,21 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <marker date="1461858105440" expanded="true" signature="11354:11379" placeholder="select guest... guest" />
-            <marker date="1461858105440" expanded="true" signature="11354:11380" placeholder="select guest... guest" />
-            <marker date="1461858105440" expanded="true" signature="11354:11407" placeholder="select * fro... guest" />
-            <marker date="1461858105440" expanded="true" signature="11354:11408" placeholder="select * fro... guest" />
-            <marker date="1461858105440" expanded="true" signature="13425:13444" placeholder="select * fro... guest" />
-            <marker date="1461858105440" expanded="true" signature="13648:13674" placeholder="select * fro... reservations" />
-            <marker date="1461858105440" expanded="true" signature="14101:14201" placeholder="insert into guest... " />
-            <marker date="1461858105440" expanded="true" signature="14528:14572" placeholder="insert into reservations... " />
-            <marker date="1461858105440" expanded="true" signature="15267:15301" placeholder="insert into dates... " />
-            <marker date="1461858105440" expanded="true" signature="17887:17913" placeholder="select * fro... reservations" />
-            <marker date="1461858105440" expanded="true" signature="18149:18193" placeholder="insert into reservations... " />
-            <marker date="1461858105440" expanded="true" signature="18691:18725" placeholder="insert into dates... " />
-            <marker date="1461858105440" expanded="true" signature="20311:20318" placeholder="select rooms... rooms" />
-            <marker date="1461858105440" expanded="true" signature="20311:20371" placeholder="select * fro... dates" />
-            <marker date="1461858105440" expanded="true" signature="20311:20384" placeholder="select * fro... dates" />
+            <marker date="1462314849227" expanded="true" signature="12696:12721" placeholder="select guest... guest" />
+            <marker date="1462314849227" expanded="true" signature="12696:12722" placeholder="select guest... guest" />
+            <marker date="1462314849227" expanded="true" signature="12696:12749" placeholder="select * fro... guest" />
+            <marker date="1462314849227" expanded="true" signature="12696:12750" placeholder="select * fro... guest" />
+            <marker date="1462314849227" expanded="true" signature="14766:14785" placeholder="select * fro... guest" />
+            <marker date="1462314849227" expanded="true" signature="14989:15015" placeholder="select * fro... reservations" />
+            <marker date="1462314849227" expanded="true" signature="15442:15564" placeholder="insert into guest... " />
+            <marker date="1462314849227" expanded="true" signature="16090:16134" placeholder="insert into reservations... " />
+            <marker date="1462314849227" expanded="true" signature="16742:16776" placeholder="insert into dates... " />
+            <marker date="1462314849227" expanded="true" signature="19362:19388" placeholder="select * fro... reservations" />
+            <marker date="1462314849227" expanded="true" signature="19624:19668" placeholder="insert into reservations... " />
+            <marker date="1462314849227" expanded="true" signature="20166:20200" placeholder="insert into dates... " />
+            <marker date="1462314849227" expanded="true" signature="21784:21791" placeholder="select rooms... rooms" />
+            <marker date="1462314849227" expanded="true" signature="21784:21844" placeholder="select * fro... dates" />
+            <marker date="1462314849227" expanded="true" signature="21784:21857" placeholder="select * fro... dates" />
           </folding>
         </state>
       </provider>
@@ -1262,22 +1435,30 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <marker date="1461858105440" expanded="true" signature="11354:11379" placeholder="select guest... guest" />
-            <marker date="1461858105440" expanded="true" signature="11354:11380" placeholder="select guest... guest" />
-            <marker date="1461858105440" expanded="true" signature="11354:11407" placeholder="select * fro... guest" />
-            <marker date="1461858105440" expanded="true" signature="11354:11408" placeholder="select * fro... guest" />
-            <marker date="1461858105440" expanded="true" signature="13425:13444" placeholder="select * fro... guest" />
-            <marker date="1461858105440" expanded="true" signature="13648:13674" placeholder="select * fro... reservations" />
-            <marker date="1461858105440" expanded="true" signature="14101:14201" placeholder="insert into guest... " />
-            <marker date="1461858105440" expanded="true" signature="14528:14572" placeholder="insert into reservations... " />
-            <marker date="1461858105440" expanded="true" signature="15267:15301" placeholder="insert into dates... " />
-            <marker date="1461858105440" expanded="true" signature="17887:17913" placeholder="select * fro... reservations" />
-            <marker date="1461858105440" expanded="true" signature="18149:18193" placeholder="insert into reservations... " />
-            <marker date="1461858105440" expanded="true" signature="18691:18725" placeholder="insert into dates... " />
-            <marker date="1461858105440" expanded="true" signature="20311:20318" placeholder="select rooms... rooms" />
-            <marker date="1461858105440" expanded="true" signature="20311:20371" placeholder="select * fro... dates" />
-            <marker date="1461858105440" expanded="true" signature="20311:20384" placeholder="select * fro... dates" />
+            <marker date="1462314849227" expanded="true" signature="12696:12721" placeholder="select guest... guest" />
+            <marker date="1462314849227" expanded="true" signature="12696:12722" placeholder="select guest... guest" />
+            <marker date="1462314849227" expanded="true" signature="12696:12749" placeholder="select * fro... guest" />
+            <marker date="1462314849227" expanded="true" signature="12696:12750" placeholder="select * fro... guest" />
+            <marker date="1462314849227" expanded="true" signature="14766:14785" placeholder="select * fro... guest" />
+            <marker date="1462314849227" expanded="true" signature="14989:15015" placeholder="select * fro... reservations" />
+            <marker date="1462314849227" expanded="true" signature="15442:15564" placeholder="insert into guest... " />
+            <marker date="1462314849227" expanded="true" signature="16090:16134" placeholder="insert into reservations... " />
+            <marker date="1462314849227" expanded="true" signature="16742:16776" placeholder="insert into dates... " />
+            <marker date="1462314849227" expanded="true" signature="19362:19388" placeholder="select * fro... reservations" />
+            <marker date="1462314849227" expanded="true" signature="19624:19668" placeholder="insert into reservations... " />
+            <marker date="1462314849227" expanded="true" signature="20166:20200" placeholder="insert into dates... " />
+            <marker date="1462314849227" expanded="true" signature="21784:21791" placeholder="select rooms... rooms" />
+            <marker date="1462314849227" expanded="true" signature="21784:21844" placeholder="select * fro... dates" />
+            <marker date="1462314849227" expanded="true" signature="21784:21857" placeholder="select * fro... dates" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/capitan.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="6" column="0" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1289,24 +1470,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/management.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="23" column="25" selection-start-line="23" selection-start-column="25" selection-end-line="23" selection-end-column="25" />
-          <folding>
-            <marker date="1461447156264" expanded="true" signature="2285:2310" placeholder="Select * FRO... staff" />
-            <marker date="1461447156264" expanded="true" signature="2285:2311" placeholder="Select * FRO... staff" />
-            <marker date="1461447156264" expanded="true" signature="2285:2344" placeholder="Select * FRO... staff" />
-            <marker date="1461447156264" expanded="true" signature="4038:4075" placeholder="Select staff... staff" />
-            <marker date="1461447156264" expanded="true" signature="5704:5723" placeholder="Select staff... staff" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/update.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="990">
-          <caret line="52" column="41" selection-start-line="52" selection-start-column="41" selection-end-line="52" selection-end-column="41" />
+        <state relative-caret-position="817">
+          <caret line="218" column="53" selection-start-line="218" selection-start-column="53" selection-end-line="218" selection-end-column="53" />
           <folding>
             <marker date="1461562282700" expanded="true" signature="1901:1955" placeholder="Select * FRO... guest" />
             <marker date="1461562282700" expanded="true" signature="3556:3593" placeholder="Select * FRO... guest" />
@@ -1320,34 +1487,48 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="154">
-          <caret line="18" column="0" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
+        <state relative-caret-position="239">
+          <caret line="41" column="0" selection-start-line="41" selection-start-column="0" selection-end-line="41" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/management.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2384">
+          <caret line="175" column="47" selection-start-line="175" selection-start-column="0" selection-end-line="176" selection-end-column="0" />
+          <folding>
+            <marker date="1461447156264" expanded="true" signature="2285:2310" placeholder="Select * FRO... staff" />
+            <marker date="1461447156264" expanded="true" signature="2285:2311" placeholder="Select * FRO... staff" />
+            <marker date="1461447156264" expanded="true" signature="2285:2344" placeholder="Select * FRO... staff" />
+            <marker date="1461447156264" expanded="true" signature="4038:4075" placeholder="Select staff... staff" />
+            <marker date="1461447156264" expanded="true" signature="5704:5723" placeholder="Select staff... staff" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/query.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-41">
-          <caret line="561" column="0" selection-start-line="561" selection-start-column="0" selection-end-line="561" selection-end-column="0" />
+        <state relative-caret-position="540">
+          <caret line="498" column="0" selection-start-line="498" selection-start-column="0" selection-end-line="498" selection-end-column="0" />
           <folding>
-            <marker date="1461858105440" expanded="true" signature="11354:11379" placeholder="select guest... guest" />
-            <marker date="1461858105440" expanded="true" signature="11354:11380" placeholder="select guest... guest" />
-            <marker date="1461858105440" expanded="true" signature="11354:11407" placeholder="select * fro... guest" />
-            <marker date="1461858105440" expanded="true" signature="11354:11408" placeholder="select * fro... guest" />
-            <marker date="1461858105440" expanded="true" signature="13425:13444" placeholder="select * fro... guest" />
-            <marker date="1461858105440" expanded="true" signature="13648:13674" placeholder="select * fro... reservations" />
-            <marker date="1461858105440" expanded="true" signature="14101:14201" placeholder="insert into guest... " />
-            <marker date="1461858105440" expanded="true" signature="14528:14572" placeholder="insert into reservations... " />
-            <marker date="1461858105440" expanded="true" signature="15267:15301" placeholder="insert into dates... " />
-            <marker date="1461858105440" expanded="true" signature="17887:17913" placeholder="select * fro... reservations" />
-            <marker date="1461858105440" expanded="true" signature="18149:18193" placeholder="insert into reservations... " />
-            <marker date="1461858105440" expanded="true" signature="18691:18725" placeholder="insert into dates... " />
-            <marker date="1461858105440" expanded="true" signature="20311:20318" placeholder="select rooms... rooms" />
-            <marker date="1461858105440" expanded="true" signature="20311:20371" placeholder="select * fro... dates" />
-            <marker date="1461858105440" expanded="true" signature="20311:20384" placeholder="select * fro... dates" />
+            <marker date="1462314849227" expanded="true" signature="12696:12721" placeholder="select guest... guest" />
+            <marker date="1462314849227" expanded="true" signature="12696:12722" placeholder="select guest... guest" />
+            <marker date="1462314849227" expanded="true" signature="12696:12749" placeholder="select * fro... guest" />
+            <marker date="1462314849227" expanded="true" signature="12696:12750" placeholder="select * fro... guest" />
+            <marker date="1462314849227" expanded="true" signature="14766:14785" placeholder="select * fro... guest" />
+            <marker date="1462314849227" expanded="true" signature="14989:15015" placeholder="select * fro... reservations" />
+            <marker date="1462314849227" expanded="true" signature="15442:15564" placeholder="insert into guest... " />
+            <marker date="1462314849227" expanded="true" signature="16090:16134" placeholder="insert into reservations... " />
+            <marker date="1462314849227" expanded="true" signature="16742:16776" placeholder="insert into dates... " />
+            <marker date="1462314849227" expanded="true" signature="19362:19388" placeholder="select * fro... reservations" />
+            <marker date="1462314849227" expanded="true" signature="19624:19668" placeholder="insert into reservations... " />
+            <marker date="1462314849227" expanded="true" signature="20166:20200" placeholder="insert into dates... " />
+            <marker date="1462314849227" expanded="true" signature="21784:21791" placeholder="select rooms... rooms" />
+            <marker date="1462314849227" expanded="true" signature="21784:21844" placeholder="select * fro... dates" />
+            <marker date="1462314849227" expanded="true" signature="21784:21857" placeholder="select * fro... dates" />
           </folding>
         </state>
       </provider>
