@@ -33,14 +33,14 @@ public class console {
         PrintStream ps = new PrintStream(console, true);
         System.setOut(ps);
         System.setErr(ps);
+        cssEditorFld.appendText("");
 
-        cssEditorFld.setPrefRowCount(50);
+        cssEditorFld.setPrefRowCount(30);
         cssEditorFld.setPrefColumnCount(100);
         cssEditorFld.setWrapText(true);
         cssEditorFld.setPrefWidth(1000);
         GridPane.setHalignment(cssEditorFld, HPos.CENTER);
         gridpane.add(cssEditorFld, 0, 1);
-
 
         root.getChildren().add(gridpane);
         scene.getStylesheets().add("capitan.css");
