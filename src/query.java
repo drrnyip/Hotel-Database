@@ -26,6 +26,9 @@ public class query{
     static double balanceCharge;
     static double deposit;
 
+    static CheckBox smoke;
+    static boolean smokeChoice;
+
 
     static String fname;
     static String lname;
@@ -60,6 +63,9 @@ public class query{
         final DatePicker endDate = new DatePicker();
         endDate.setPromptText("End of stay");
 
+        smoke = new CheckBox();
+        smoke.setText("Smoking Room");
+
         roomTypes.setDisable(false);
         roomTypes.setPromptText("1. Select Room Type");
         roomTypes.getItems().removeAll(roomTypes.getItems());
@@ -80,6 +86,13 @@ public class query{
 
         //Button action
             searchAvailability.setOnAction(event -> {
+
+                if (smoke.isSelected() == true){
+                    smokeChoice = true;
+                }
+                else {
+                    smokeChoice = false;
+                }
 
                 goodRooms.clear();
                 confirmClicked = true;
@@ -131,82 +144,140 @@ public class query{
                     else if (typeChoice.equals("All")) { all = true;}
 
                     if (suite == true) {
-                        if (checkGoodRooms(320) == true){
+                        if (checkGoodRooms(320) == true && smokeChoice == false){
                             availableRooms.getItems().add("320");
                         }
-                        if (checkGoodRooms(319) == true){
+                        if (checkGoodRooms(319) == true && smokeChoice == true){
                             availableRooms.getItems().add("319");
                         }
                     }
 
                         else if (deluxe == true) {
-                            if (checkGoodRooms(318) == true){
+                            if (checkGoodRooms(318) == true && smokeChoice == false){
                                 availableRooms.getItems().add("318");
                             }
-                            if (checkGoodRooms(317) == true){
+                            if (checkGoodRooms(317) == true && smokeChoice == false){
                                 availableRooms.getItems().add("317");
                             }
-                            if (checkGoodRooms(316) == true){
+                            if (checkGoodRooms(316) == true && smokeChoice == false){
                                 availableRooms.getItems().add("316");
                             }
 
-                            if (checkGoodRooms(315) == true){
+                            if (checkGoodRooms(315) == true && smokeChoice == true){
                                 availableRooms.getItems().add("315");
                             }
-                            if (checkGoodRooms(314) == true){
+                            if (checkGoodRooms(314) == true && smokeChoice == true){
                                 availableRooms.getItems().add("314");
                             }
-                            if (checkGoodRooms(313) == true){
+                            if (checkGoodRooms(313) == true && smokeChoice == true){
                                 availableRooms.getItems().add("313");
                             }
                         }
 
                         else if (economy == true) {
-                            if (checkGoodRooms(312) == true){
+                            if (checkGoodRooms(312) == true && smokeChoice == false){
                                 availableRooms.getItems().add("312");
                             }
-                            if (checkGoodRooms(311) == true){
+                            if (checkGoodRooms(311) == true && smokeChoice == false){
                                 availableRooms.getItems().add("311");
                             }
-                            if (checkGoodRooms(310) == true){
+                            if (checkGoodRooms(310) == true && smokeChoice == false){
                                 availableRooms.getItems().add("310");
                             }
-                            if (checkGoodRooms(309) == true){
+                            if (checkGoodRooms(309) == true && smokeChoice == false){
                                 availableRooms.getItems().add("309");
                             }
-                            if (checkGoodRooms(308) == true){
+                            if (checkGoodRooms(308) == true && smokeChoice == false){
                                 availableRooms.getItems().add("308");
                             }
-                            if (checkGoodRooms(307) == true){
+                            if (checkGoodRooms(307) == true && smokeChoice == false){
                                 availableRooms.getItems().add("307");
                             }
-                            if (checkGoodRooms(306) == true){
+                            if (checkGoodRooms(306) == true && smokeChoice == true){
                                 availableRooms.getItems().add("306");
                             }
-                            if (checkGoodRooms(305) == true){
+                            if (checkGoodRooms(305) == true && smokeChoice == true){
                                 availableRooms.getItems().add("305");
                             }
-                            if (checkGoodRooms(304) == true){
+                            if (checkGoodRooms(304) == true && smokeChoice == true){
                                 availableRooms.getItems().add("304");
                             }
-                            if (checkGoodRooms(303) == true){
+                            if (checkGoodRooms(303) == true && smokeChoice == true){
                                 availableRooms.getItems().add("303");
                             }
-                            if (checkGoodRooms(302) == true){
+                            if (checkGoodRooms(302) == true && smokeChoice == true){
                                 availableRooms.getItems().add("302");
                             }
-                            if (checkGoodRooms(301) == true){
+                            if (checkGoodRooms(301) == true && smokeChoice == true){
                                 availableRooms.getItems().add("301");
                             }
                         }
 
                         else if (all == true) {
-                            for (int f = 301; f <=320; f++){
-                                if (checkGoodRooms(f) == true){
-                                    availableRooms.getItems().add(Integer.toString(f));
-                                }
-                            }
+                        if (checkGoodRooms(320) == true && smokeChoice == false) {
+                            availableRooms.getItems().add("320");
                         }
+                        if (checkGoodRooms(319) == true && smokeChoice == true) {
+                            availableRooms.getItems().add("319");
+                        }
+
+                        if (checkGoodRooms(318) == true && smokeChoice == false) {
+                            availableRooms.getItems().add("318");
+                        }
+                        if (checkGoodRooms(317) == true && smokeChoice == false) {
+                            availableRooms.getItems().add("317");
+                        }
+                        if (checkGoodRooms(316) == true && smokeChoice == false) {
+                            availableRooms.getItems().add("316");
+                        }
+
+                        if (checkGoodRooms(315) == true && smokeChoice == true) {
+                            availableRooms.getItems().add("315");
+                        }
+                        if (checkGoodRooms(314) == true && smokeChoice == true) {
+                            availableRooms.getItems().add("314");
+                        }
+                        if (checkGoodRooms(313) == true && smokeChoice == true) {
+                            availableRooms.getItems().add("313");
+                        }
+
+                        if (checkGoodRooms(312) == true && smokeChoice == false) {
+                            availableRooms.getItems().add("312");
+                        }
+                        if (checkGoodRooms(311) == true && smokeChoice == false) {
+                            availableRooms.getItems().add("311");
+                        }
+                        if (checkGoodRooms(310) == true && smokeChoice == false) {
+                            availableRooms.getItems().add("310");
+                        }
+                        if (checkGoodRooms(309) == true && smokeChoice == false) {
+                            availableRooms.getItems().add("309");
+                        }
+                        if (checkGoodRooms(308) == true && smokeChoice == false) {
+                            availableRooms.getItems().add("308");
+                        }
+                        if (checkGoodRooms(307) == true && smokeChoice == false) {
+                            availableRooms.getItems().add("307");
+                        }
+                        if (checkGoodRooms(306) == true && smokeChoice == true) {
+                            availableRooms.getItems().add("306");
+                        }
+                        if (checkGoodRooms(305) == true && smokeChoice == true) {
+                            availableRooms.getItems().add("305");
+                        }
+                        if (checkGoodRooms(304) == true && smokeChoice == true) {
+                            availableRooms.getItems().add("304");
+                        }
+                        if (checkGoodRooms(303) == true && smokeChoice == true) {
+                            availableRooms.getItems().add("303");
+                        }
+                        if (checkGoodRooms(302) == true && smokeChoice == true) {
+                            availableRooms.getItems().add("302");
+                        }
+                        if (checkGoodRooms(301) == true && smokeChoice == true) {
+                            availableRooms.getItems().add("301");
+                        }
+                    }
 
                         noEntry = false;
 
@@ -231,6 +302,7 @@ public class query{
                         searchAvailability.setDisable(true);
                         roomChoice = Integer.parseInt(availableRooms.getValue());
                         costType = roomChoice;
+                        smoke.setDisable(true);
                     }
                     createReservation.setDisable(true);
 
@@ -469,12 +541,13 @@ public class query{
         grid.setConstraints(lastNameSearch,1,9);
         grid.setConstraints(foundGuest,0,9);
         grid.setConstraints(confirmOldGuest,1,10);
+        grid.setConstraints(smoke,2,1);
 
 
 
         //Grid children and set scene
         grid.getChildren().addAll(info, startDate, roomTypes, searchAvailability, createReservation,endDate);
-        grid.getChildren().addAll(infoGuests1,infoGuests2,firstName,lastName,guestID,searchGuest,createGuest,contactInformation, lastNameSearch, foundGuest,confirmOldGuest);
+        grid.getChildren().addAll(infoGuests1,infoGuests2,firstName,lastName,guestID,searchGuest,createGuest,contactInformation, lastNameSearch, foundGuest,confirmOldGuest,smoke);
         grid.setAlignment(Pos.CENTER);
         Scene query = new Scene(grid, 1000, 600);
         query.getStylesheets().add("capitan.css");

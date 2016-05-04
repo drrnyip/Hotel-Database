@@ -34,6 +34,7 @@ public class main extends Application {
 //            confirmExit();
 //            if (result == true) {primaryStage.close();}
 //        });
+        console.display();
 
         primaryStage.setTitle("Hotel Database");
         Button button1 = new Button();
