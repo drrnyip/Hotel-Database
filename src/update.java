@@ -31,6 +31,8 @@ public class update{
         Label guestID = new Label("Guest ID Number");
         TextField guestIDInput = new TextField();
         guestIDInput.setPromptText("ID Number");
+        TextField reservationID = new TextField();
+        reservationID.setPromptText("Delete by Reservation ID");
 
 
 
@@ -138,7 +140,12 @@ public class update{
                     String fname = rs1.getString("first_name");
                     String lname = rs1.getString("last_name");
                     String contact = rs1.getString("contact_number");
+                    double deposit = rs1.getDouble("deposit");
+                    double balance = rs1.getDouble("balance");
+
+                    System.out.println("");
                     System.out.println("ID: " + id + " | Name: " + lname + ", " + fname + " | Contact: " + contact);
+                    System.out.println("Deposit: " + deposit + " | Balance: " + balance);
                 }
                 stmt1.close();
                 conn1.close();
@@ -175,6 +182,8 @@ public class update{
                     String contact = rs1.getString("contact_number");
                     int roomID = rs1.getInt("room_id");
                     int reserveID = rs1.getInt("reservation_id");
+                    double deposit = rs1.getDouble("deposit");
+                    double balance = rs1.getDouble("balance");
 
                     rs2 = stmt2.executeQuery("select date from dates where reservation_id = " + reserveID);
                     Date start = null;
@@ -188,16 +197,44 @@ public class update{
                             end = rs2.getDate("date");
                         }
                     }
-
-                    System.out.println("ID: " + gid + " | Name: " + lname + ", " + fname + " | Contact: " + contact);
-                    System.out.println("Length of stay: " + start + " - " + end + " in Room " + roomID);
                     System.out.println("");
+                    System.out.println("ID: " + gid + " | Name: " + lname + ", " + fname + " | Contact: " + contact);
+                    System.out.println("Length of stay: " + start + " - " + end + " in Room " + roomID + " | ReservationID: " + reserveID);
+                    System.out.println("Deposit: " + deposit + " | Balance: " + balance);
                 }
 
 
             } catch (Exception g) {}
 
 
+        });
+
+
+
+        Button deleteReservation = new Button("Delete Reservation");
+        deleteReservation.setOnAction(event -> {
+
+            if (reservationID.getText().equals("") == true) {
+                System.out.println("Please enter a valid reservation ID");
+                return;
+            }
+            else{
+
+                int reserve = Integer.parseInt(reservationID.getText());
+                reservationID.clear();
+
+                try {
+                    Connection con = null;
+                    Statement stmt = null;
+
+                    String conURL = "jdbc:mysql://localhost:3306/hotel";
+                    Class.forName("com.mysql.jdbc.Driver").newInstance();
+                    con = DriverManager.getConnection(conURL, "root", "toor");
+                    stmt = con.createStatement();
+                    stmt.executeUpdate("DELETE FROM reservations where reservation_id = " + reserve);
+
+                }catch (Exception g) {};
+            }
         });
 
 
@@ -213,9 +250,12 @@ public class update{
         GridPane.setConstraints(titleSearch,2,5);
         GridPane.setConstraints(displayguests,0,6);
         GridPane.setConstraints(viewReservations,1,6);
+        GridPane.setConstraints(reservationID,0,7);
+        GridPane.setConstraints(deleteReservation,1,7);
 
 
         grid.getChildren().addAll(guestInput,guestName,searchguest,guestID,guestIDInput,searchguestID, info,displayguests, viewReservations);
+        grid.getChildren().addAll(deleteReservation,reservationID);
         Scene management = new Scene(grid, 800, 350);
         management.getStylesheets().add("capitan.css");
         window.setScene(management);

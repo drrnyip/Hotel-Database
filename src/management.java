@@ -69,6 +69,7 @@ public class management{
                     String lname = rs1.getString("staff_lastName");
                     double salary = rs1.getDouble("salary");
                     String shift = rs1.getString("shift");
+                    System.out.println("");
                     System.out.println("ID: " + id + " | Name: " + lname + ", " + fname + " | Salary: " + salary + " | Shift: " + shift);
                     noEntry = false;
 
@@ -108,6 +109,7 @@ public class management{
                     String lname = rs1.getString("staff_lastName");
                     double salary = rs1.getDouble("salary");
                     String shift = rs1.getString("shift");
+                    System.out.println("");
                     System.out.println("ID: " + id + " | Name: " + lname + ", " + fname + " | Salary: " + salary + " | Shift: " + shift);
                     noEntry = false;
 
@@ -148,6 +150,7 @@ public class management{
                     double salary = rs1.getDouble("salary");
                     String shift = rs1.getString("shift");
 
+                    System.out.println("");
                     System.out.println("ID: " + id + " | Name: " + lname + ", " + fname + " | Salary: " + salary + " | Shift: " + shift);
                 }
                 stmt1.close();

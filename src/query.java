@@ -308,12 +308,12 @@ public class query{
 
                     double costPrice = 0;
                     if (costType == 320 || costType == 319) {
-                        deposit = 300;
-                        costPrice = 300;
+                        deposit = 200;
+                        costPrice = 200;
                     }
                     if (costType == 318 || costType == 317 || costType == 316 || costType == 315 || costType == 314 || costType == 313) {
-                        costPrice = 200;
-                        deposit = 200;
+                        costPrice = 150;
+                        deposit = 150;
                     }
                     if (costType == 312 || costType == 311 || costType == 310 || costType == 309 || costType == 308 || costType == 307 || costType == 306 || costType == 305 || costType == 304 || costType == 303 || costType == 302 || costType == 301) {
                         costPrice = 100;
